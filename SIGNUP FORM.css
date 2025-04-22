@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.background-image{
+    height: 100vh;
+    width: 100%;
+    position:absolute;
+    z-index: -1;
+    background-size: cover;
+}
+.main-div{
+    display: flex;
+    justify-content: space-between;
+}
+/* ------------------------left-section--------------- */
+.left-section{
+    color: #fff;
+    width: 400px;
+}
+/* .-----------------------rightsection--------------- */
+.form-background{
+    height: 390px;
+    width: 370px;
+    background-color: #fff;
+    border-radius: 10px;
+}

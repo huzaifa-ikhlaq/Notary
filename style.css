@@ -8,30 +8,40 @@ body {
     font-family: 'Playfair Display';
 }
 
+/* Hero secion */
+.hero-section {
+    position: relative;
+    padding: 111px 0;
+}
+
+/* container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .background-image {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: absolute;
     z-index: -1;
-    background-size: cover;
+    object-fit: cover;
+    inset: 0;
 }
 
-.container {
-    margin-left: 150px;
-    margin-right: 150px;
-    padding-left: 15px;
-    padding-right: 15px;
+.over-layer-img {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+    inset: 0;
 }
 
 .main-div {
     display: flex;
     justify-content: space-between !important;
     align-items: center !important;
-    justify-content: center;
-    padding-left: 15px;
-    padding-right: 15px;
-   
 }
+
 
 /* ------------------------left-section--------------- */
 .left-section {
@@ -39,15 +49,26 @@ body {
     width: 400px;
     padding-left: 15px;
     padding-right: 15px;
+    max-width: 530px;
+    width: 100%;
 }
 
 .left-heading-1 {
     font-size: 50px;
     font-weight: 300;
+    line-height: 60px;
+    margin-bottom: 10px;
 }
-.h-1{
+
+.h-1 {
     font-weight: 700;
 }
+
+.paragraph {
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
 /* .-----------------------rightsection--------------- */
 .right-section {
     margin-left: 15px;
@@ -55,13 +76,176 @@ body {
 }
 
 .form-background {
-    height: 390px;
-    width: 370px;
+    height: 419px;
+    width: 470px;
     background-color: #fff;
     border-radius: 10px;
+    padding: 40px;
+
 }
-.right-heading-1{
+
+.right-heading-1 {
     font-size: 20px;
     font-weight: 300;
     color: #364d59;
+    margin-bottom: 20px;
+}
+
+.input {
+    height: 55px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 24px;
+    border-radius: 0.25rem;
+    color: #364d59;
+    font-size: 16px;
+}
+
+.button {
+    padding: 12px 25px;
+    width: 100%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border: none;
+    cursor: pointer;
+    color: #212529;
+    background-color: #ffdfa7;
+    border-radius: 0.25rem;
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #fcce7e;
+}
+
+.icon {
+    position: relative;
+    right: 80px;
+    top: 265px;
+    z-index: 2;
+}
+
+/* ------------------media-query------------------ */
+@media(min-width:1024px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+@media(min-width:1200px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+@media(min-width:1440px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .hero-section {
+        padding: 216px;
+    }
+}
+
+@media(min-width:2560px) {
+    .container {
+
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .hero-section {
+        padding: 580px;
+    }
+}
+
+@media(max-width:1200px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main-div {
+        justify-content: space-between;
+    }
+}
+
+@media(max-width:768px) {
+    .main-div {
+        flex-direction: column;
+    }
+
+    .form-background {
+        width: 720px;
+    }
+
+    .left-section {
+        width: 720px;
+    }
+
+}
+
+@media(max-width:765px) {
+    .form-background {
+        width: 390px;
+    }
+
+    .left-section {
+        width: 400px;
+    }
+
+}
+
+@media(max-width:425px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .form-background {
+        width: 390px;
+    }
+
+    .left-section {
+        width: 400px;
+    }
+}
+
+@media(max-width:375px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .form-background {
+        width: 340px;
+    }
+
+    .left-section {
+        width: 350px;
+    }
+}
+
+@media(max-width:375px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .form-background {
+        width: 305px;
+    }
+
+    .left-section {
+        width: 300px;
+    }
 }

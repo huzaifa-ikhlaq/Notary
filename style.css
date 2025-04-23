@@ -1,0 +1,67 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display';
+}
+
+.background-image {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+}
+
+.container {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main-div {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+
+/* ------------------------left-section--------------- */
+.left-section {
+    color: #fff;
+    width: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.left-heading-1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+.h-1{
+    font-weight: 700;
+}
+/* .-----------------------rightsection--------------- */
+.right-section {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.form-background {
+    height: 390px;
+    width: 370px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.right-heading-1{
+    font-size: 20px;
+    font-weight: 300;
+    color: #364d59;
+}

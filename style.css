@@ -172,7 +172,7 @@ body {
     z-index: -1;
     position: absolute;
     top: 5px;
-    right: 244px;
+    /* right: 244px; */
     width: 30px;
     height: 36px;
 }

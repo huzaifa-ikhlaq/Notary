@@ -6,6 +6,11 @@
 
 body {
     font-family: 'Playfair Display';
+    line-height: 1.7;
+    font-weight: 300;
+    font-size: 1rem;
+    background: #fff;
+    color: #364d59 !important;
 }
 
 /* Hero secion */
@@ -128,6 +133,33 @@ body {
     z-index: 2;
 }
 
+/* -----------multiservices-section----------- */
+.multiservices-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f8f9fa !important;
+}
+
+.container-2 {}
+
+.multiservices-heading {
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 48px;
+}
+.multiservices-h1{
+    color: black;
+}
+.blocks{
+    display: grid;
+    grid-template-columns: repeat(3,1fr );
+}
+.block{
+    background-color: #fff;
+}
+.icon{
+   
+}
 /* ------------------media-query------------------ */
 @media(min-width:1024px) {
     .container {

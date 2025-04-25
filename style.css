@@ -53,6 +53,11 @@ body {
     top: 5px;
     left: 5px;
 }
+.item-three{
+    position: relative;
+    top: 30px;
+    color: black;
+}
 
 /* Hero secion */
 .hero-section {

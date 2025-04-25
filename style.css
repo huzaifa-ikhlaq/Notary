@@ -428,6 +428,9 @@ h3 {
     .our-customers-blocks {
         grid-template-columns: repeat(2, 1fr);
     }
+    .main-div-5{
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 }
 
@@ -447,6 +450,15 @@ h3 {
 
     .left-section {
         width: 720px;
+    }
+    .main-div-5{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .legal-solution-img{
+        width: 100%;
+    }
+    .left-section-text-section{
+        padding: 20px 0px 20px 0px;
     }
 
 }

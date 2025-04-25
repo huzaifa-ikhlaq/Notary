@@ -294,6 +294,61 @@ h3 {
 
 }
 
+/* -----------legal-solution----------- */
+.legal-solution {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.main-div-5 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+.legal-solution-img{
+    max-width: 95%;
+}
+.legal-solution-h1{
+    font-weight: 200;
+    margin-bottom: 24px;
+    font-size: 33px;
+    line-height: 36px;
+}
+.legal-solution-ul{
+    list-style: none;
+}
+.legal-solution-ul li{
+    margin-bottom: 15px;
+    /* padding-left: 35px; */
+}
+.legal-solution-btn{
+    background-color: transparent;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Playfair Display';
+    border: 1px solid #888;
+    cursor: pointer;
+    width: 100%;
+    color: #999;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.legal-solution-btn:hover{
+    color: black;
+}
+.btn-1{
+    margin-bottom: 0px;
+    color: black;
+}
+.legal-btn-drop-down{
+    background-color:#f8f9fa;
+    color: #888;
+    padding:0px 20px 20px 20px ;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
 /* ------------------media-query------------------ */
 
 @media(min-width:1024px) {

@@ -153,7 +153,15 @@ body {
     border-radius: 0.25rem;
     color: #364d59;
     font-size: 16px;
+    
 }
+input[type="date"] {
+    width: 100% !important;
+    min-width: 0 !important;
+    -webkit-appearance: none !important; /* important for Safari */
+    appearance: none !important;
+  }
+  
 
 .button {
     padding: 12px 25px;
